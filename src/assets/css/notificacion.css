@@ -1,0 +1,32 @@
+.notificacion-parpadea {
+  animation-name: notificacion-parpadeo;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: notificacion-parpadeo;
+  -webkit-animation-duration: 1s;
+  -webkit-animation-timing-function: linear;
+  -webkit-animation-iteration-count: infinite;
+}
+  
+@keyframes notificacion-parpadeo {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }}
+
+@keyframes notificacion-parpadeo {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@keyframes notificacion-parpadeo {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.item-notificacion:hover {
+  cursor: pointer;
+  transform: translateY(-5px);
+}
